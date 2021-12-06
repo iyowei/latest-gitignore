@@ -6,13 +6,13 @@
 
 ```shell
 # 使用 Pnpm
-$ pnpm add latest-gitignore
+$ pnpm add @iyowei/latest-gitignore
 
 # 使用 NPM
-$ npm i latest-gitignore
+$ npm i @iyowei/latest-gitignore
 
 # 使用 Yarn
-$ yarn add latest-gitignore
+$ yarn add @iyowei/latest-gitignore
 ```
 
 ## 使用
