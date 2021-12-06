@@ -1,0 +1,46 @@
+{
+  "name": "@iyowei/latest-gitignore",
+  "description": "从 `github/gitignore` 项目中获取最新模板。",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "src/**/*",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "scripts": {
+    "dev": "DEBUG=LG:* node ./test.js",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "camelcase-keys": "^7.0.1",
+    "debug": "^4.3.3",
+    "got": "^11.8.3",
+    "has-ext": "^1.0.1",
+    "lodash.filter": "^4.6.0",
+    "p-map": "^5.3.0"
+  },
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "git",
+    "gitignore",
+    "init",
+    "generator",
+    "iyowei"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTonyYo/latestGitignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iTonyYo/latestGitignore/issues"
+  },
+  "homepage": "https://github.com/iTonyYo/latestGitignore#readme",
+  "license": "MIT"
+}
